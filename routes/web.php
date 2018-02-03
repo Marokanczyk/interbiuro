@@ -12,12 +12,5 @@
 */
 
 Route::get('/', function () {
-
-
-    $i = [1,2,3];
-
-    return array_sum($i);
-
-
-   //function return view('welcome');
+    return view('welcome');
 });
